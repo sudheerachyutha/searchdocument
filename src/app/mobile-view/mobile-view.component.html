@@ -1,0 +1,5 @@
+   <h3>Documents</h3>
+   <h3>Seach document or select category</h3>
+   <app-sticky-menu id="mobilemenu" [doctypes]="doctypes" (onChangeType)="onChangedocType($event)"></app-sticky-menu>
+   <input type="text" id="mobiletext" placeholder="Start typing document name..." (keyup)="namesearch($event.target.value)">
+   <app-document-views id="mobiledocviews" viewtype="mobileview" [views]="views"></app-document-views>

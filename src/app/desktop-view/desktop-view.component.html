@@ -1,0 +1,5 @@
+   <h3>Documents</h3>
+   <h3>Seach document or select category</h3>
+   <app-sticky-menu id="deskmenu" [doctypes]="doctypes" (onChangeType)="onChangedocType($event)"></app-sticky-menu>
+   <input type="text" id="deskinput" placeholder="Start typing document name..." (keyup)="namesearch($event.target.value)">
+   <app-document-views id="deskdocview" viewtype="deskview" [views]="views"></app-document-views>

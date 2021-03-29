@@ -1,0 +1,10 @@
+<div *ngFor="let view of views;let idx = index">
+    <div *ngIf="viewtype === 'deskview'" class="notop" [class.row] = "((idx+1) % 2) == 0">
+      <div class="margin"></div>
+      <app-card id="title-idx" [bodyText]="view.name" [titleText]="view.type"></app-card>
+    </div>
+    <div *ngIf="viewtype === 'mobileview'">
+        <div class="margin"></div>
+        <app-card id="title-idx" [bodyText]="view.name" [titleText]="view.type"></app-card>
+    </div>
+</div>

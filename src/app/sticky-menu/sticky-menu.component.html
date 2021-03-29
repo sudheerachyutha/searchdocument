@@ -1,0 +1,4 @@
+<div *ngFor="let doctype of doctypes;let i=index;"> 
+    <div class="stickymargin"></div>
+     <button id="stickbuttom"  (click)="onTypeSearch(doctype.label)">{{doctype.label}}</button>
+</div>

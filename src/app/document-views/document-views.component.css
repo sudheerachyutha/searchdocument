@@ -1,0 +1,11 @@
+.margin{
+    margin: 10px 0 10px 0;
+}
+.notop{
+    margin-top: 0px;
+}
+
+.row{
+    margin: 100px 0px 0px -210px;
+    width: 100px;
+}

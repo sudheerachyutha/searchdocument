@@ -1,0 +1,7 @@
+input#mobiletext {
+    width: 100%;
+}
+app-sticky-menu#mobilemenu {
+    display: flex;
+    font-size: 0.1em;
+}

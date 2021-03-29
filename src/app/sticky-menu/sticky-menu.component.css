@@ -1,0 +1,9 @@
+button#stickbuttom{
+    background-color: lightgray !important;
+    border-color: lightgray !important;
+    border: none;
+}
+
+.stickymargin{
+    margin: 10px 0px 10px 0px;
+}

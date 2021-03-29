@@ -1,0 +1,11 @@
+input#deskinput{
+position: absolute;
+margin: -138px 200px 40px;
+width: 40%;
+}
+
+app-document-views#deskdocview {
+    display: flex;
+    margin: -100px 0px 0px 190px;
+}
+

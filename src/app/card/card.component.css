@@ -1,0 +1,35 @@
+.card{
+ border-radius: 15px;
+ border: 1px solid #b1abab;
+ width: 175px;
+ height: 50px;
+ padding: 16px;
+ overflow: hidden;
+ background-color: whitesmoke
+}
+
+.card .card-body{
+    margin-top: 5px;
+    color:black;
+    font-size: 16px;
+    outline: none;
+    overflow: hidden;
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    position: relative;
+}
+
+.card .card-title {
+    border-radius: 25px;
+    border: 1px solid #7e8083;
+    height: 15px;
+    width: 100px;
+    position: relative;
+    top: -15px;
+    left: 45%;
+    margin: 8px;
+    text-align: center;
+    font-size: 0.8em;
+    background: lightgray;
+}
